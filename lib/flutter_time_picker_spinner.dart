@@ -218,7 +218,7 @@ class _TimePickerSpinnerState extends State<TimePickerSpinner> {
     super.initState();
 
     if (widget.onTimeChange != null) {
-      WidgetsBinding.instance!
+      WidgetsBinding.instance
           .addPostFrameCallback((_) => widget.onTimeChange!(getDateTime()));
     }
   }
